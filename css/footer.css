@@ -1,0 +1,45 @@
+footer {
+    background-color: var(--blck14);
+    padding: 6.25rem 0;
+    margin-top: 6.25rem;
+    color: var(--white);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: var(--size15);
+}
+
+footer .container {
+ grid-template-columns: 30% repeat(3, 1fr);
+}
+
+footer .container nav ul li {
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+footer .container nav ul li:hover {
+    color: var(--blue);
+}
+
+footer .container .menu {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer .container .rights h4 {
+    margin-bottom: 1.875rem;
+    font-size: var(--size18);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2.1875rem;
+}
+
+footer .container .rights p {
+    font-size: var(--size15);
+    line-height: 1.5rem;
+}
+
+footer .container .contact a {
+    margin-bottom: 1.5rem;
+}
+
+footer .container .contact a:last-child {
+    font-family: 'Work Sans', sans-serif;
+}

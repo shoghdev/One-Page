@@ -1,0 +1,25 @@
+.input-group div {
+    width: .75rem; height: .75rem;
+}
+
+.input-group div:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
+
+.input-group div input[type="radio"] {
+    appearance: none;
+    width: .313rem; height: .313rem;
+    background-color: #b0e8e6;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-group div input[type="radio"]:checked {
+    width: 100%; height: 100%;
+    background-color: var(--white);
+}
+
+.input-group input[type="radio"]:not(:last-child) {
+    margin-bottom: 1.25rem;
+}

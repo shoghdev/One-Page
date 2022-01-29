@@ -1,0 +1,28 @@
+.feedback {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 3.75rem 0;
+}
+
+.feedback .inner {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+.feedback .inner blockquote {
+    font-size: var(--size24);
+    line-height: 2.25rem;
+    margin: 2.5rem 0;
+}
+
+.feedback .inner p {
+    margin-bottom: 1.25rem;
+    line-height: 2.25rem;
+    font-size: var(--size12);
+}
+
+.feedback .inner .input-group {
+    margin-top: 3.438rem;
+}

@@ -1,0 +1,64 @@
+.work-inner {
+    flex-wrap: wrap;
+}
+
+.work-inner .item {
+    flex: 25%;
+    width: 25%;
+    height: 18.75rem;
+}
+
+.work-inner .item:nth-of-type(even) {
+    background-color: var(--gray2);
+}
+
+.work-inner .item:nth-of-type(odd) {
+    background-color: var(--gray3);
+}
+
+.work-inner:nth-of-type(even)
+  .item:nth-of-type(even) {
+    background-color: var(--gray3);
+}
+
+.work-inner:nth-of-type(even)
+  .item:nth-of-type(odd) {
+    background-color: var(--gray2);
+}
+
+.work-inner .item .hovered {
+    background-color: var(--black25);
+    width: 100%;
+    height: 100%; 
+}
+
+.work-inner .item .hovered i {
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.work-inner .item:hover .hovered {
+    display: flex;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.works button {
+    color: #8e8e8e;
+    width: 12rem;
+    margin: 0 auto;
+}
+
+.works button:hover {
+    color: var(--blue);
+}
+
+@media screen and (max-width: 1200px) {
+    .work-inner .item{
+        flex: 50%;
+        height: 30rem;
+    }
+}

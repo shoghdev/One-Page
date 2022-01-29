@@ -1,0 +1,36 @@
+.services-box .services .item {
+    margin-bottom: 3.438rem;
+    text-align: center;
+    line-height: 1.875rem;
+}
+
+.services-box .services .item .icon {
+    font-size: 3rem;
+    color: #656565;    
+}
+
+.services-box .services .item h4 {
+    text-transform: uppercase;
+    color: var(--black19);
+    font-size: var(--size12);
+}
+
+.services-box .services .item p {
+    color: var(--gray1);
+    font-size: var(--size16);
+    line-height: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .services-box .services .item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .services-box .services .item {
+        width: 100%;
+    }
+}

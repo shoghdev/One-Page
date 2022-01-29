@@ -1,0 +1,71 @@
+.skills {
+    padding-left: 6.25rem;
+    /* height: 35.625rem; */
+}
+
+.skills h2{
+    margin-bottom: 2.5rem;
+}
+
+.skills .skill label {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: var(--size12);
+    color: var(--black);
+}
+
+.skills .skill meter {
+    margin-bottom: 2.5rem;
+}
+
+meter,
+meter::-webkit-meter-bar,
+meter::-webkit-meter-optimum-value,
+meter::-webkit-meter-suboptimum-value,
+meter::-webkit-meter-even-less-good-value,
+meter::-webkit-meter-inner-element {
+    background: none;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    height: 3px;
+    /* margin-bottom: 2.5rem; */
+}
+
+meter { 
+    appearance: none;
+    -moz-appearance: meter;
+    -webkit-appearance: meter;
+    background-color: var(--gray4);
+
+}
+
+meter::-webkit-meter-optimum-value { 
+    background-color: var(--blue);
+}
+
+.skills .left {
+    padding-right: 5.313rem;
+}
+
+.skills .right {
+    background-color: #e9e9e9;
+    height: 35.625rem;
+}
+
+@media screen and (max-width: 1200px) {
+   .skills {
+       flex-direction: column;
+       padding: 0;
+   }
+
+   .skills .w-50 {
+       width: 80%;
+       margin: 0 auto;
+       padding: 0;
+   }
+
+   .skills h2.heading {
+       text-align: center;
+   }
+}

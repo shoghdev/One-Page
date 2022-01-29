@@ -1,0 +1,32 @@
+header {
+    padding: 2.813rem 0;
+    background-color: var(--light-white);
+}
+
+header .logo {
+    padding-right: 10%;
+}
+
+header .row .wrap .flex nav .menu-icon {
+    font-size: var(--size38);
+}
+
+@media screen and (max-width: 1200px) {
+    header .row .wrap .flex {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header .row .wrap .flex nav .menu {
+        display: none;
+    }
+
+    header .row .wrap .flex {
+        justify-content: space-around;
+    }
+
+    header .row .wrap .flex nav .menu-icon {
+        display: block;
+    }
+}

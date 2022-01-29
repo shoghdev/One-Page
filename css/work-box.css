@@ -1,0 +1,41 @@
+.work-box {
+    background-color: var(--blue);
+    padding: 6.25rem 0;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.work-box .item:hover {
+    color: var(--black19);
+}
+
+.work-box .item .icon i {
+    font-size: 3rem;
+    margin-right: 1.563rem;
+}
+
+.work-box .item h4 {
+    font-size: var(--size18);
+}
+
+.work-box .item p {
+    font-size: var(--size12);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+    .work-box {
+        padding: 3rem;
+    }
+
+    .work-box .wrap  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .work-box .item {
+        width: 50%;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+}
