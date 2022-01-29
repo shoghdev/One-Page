@@ -50,7 +50,7 @@ footer .container .contact a:last-child {
    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     footer .container {
         grid-auto-rows: 100px; 
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); 
